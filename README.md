@@ -1,5 +1,5 @@
 # Node-Boilerplate
-A Node Js boilerplate with ES6, ESLint, and prettier
+A Node.js boilerplate with ES6, ESLint, and prettier
 
 ### Commands: 
 
