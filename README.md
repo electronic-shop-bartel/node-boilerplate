@@ -8,7 +8,7 @@ A Node.js boilerplate with ES6, ESLint, and prettier
 npm run start
 
 # Run the project with nodemon
-npm run nodemon
+npm run dev
 
 # Build the project 
 npm run build
