@@ -41,7 +41,7 @@ $ git init
 2. Change project specific information in the following places
   - [package.json](./package.json)
   - [README.md](./README.md)
-3. Install and update dependencies
+3. Install dependencies
 ```bash
 $ npm install
 ```
