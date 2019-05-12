@@ -1,6 +1,6 @@
 {
   "name": "node-es6-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node Js boilerplate with ES6, ESLint, and prettier",
   "main": "index.js",
   "repository": {
