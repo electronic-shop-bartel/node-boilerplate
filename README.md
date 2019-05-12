@@ -1,18 +1,50 @@
 # Node-Boilerplate
 A Node.js boilerplate with ES6, ESLint, and prettier
 
-### Commands: 
+## Scripts: 
+```bash
 
-`npm run start`: To run the project without nodemon
+# Run the project without nodemon
+npm run start
 
-`npm run nodemon`: To run the project with nodemon
+# Run the project with nodemon
+npm run nodemon
 
-`npm run lint` : To check the lint errors
+# Build the project 
+npm run build
 
-`npm run lint:fix`: To fix the lint errors
+# Clean build
+npm run clean
 
-`npm run format`: To run prettier
+# Check the lint errors
+npm run lint
 
-`npm run format:check`: To check the prettier errors
+# Fix the lint errors
+npm run lint:fix
+
+# Run prettier
+npm run format
+
+# Check prettier errors
+npm run format:check
+
+```
+
+## Usage
+1. Clone the repository and init new git project
+```bash
+$ git clone git@github.com:saxenanihal95/node-boilerplate.git ./your/project/folder
+$ cd ./your/project/folder
+$ rm -rf .git
+$ git init
+```
+2. Change project specific information in the following places
+  - [package.json](./package.json)
+  - [README.md](./README.md)
+3. Install and update dependencies
+```bash
+$ npm install
+```
+4. Start coding
 
 #### Please report if any issues found
