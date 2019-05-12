@@ -9,7 +9,7 @@
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel",
     "start": "npm run build && node ./build/index.js",
-    "nodemon": "nodemon --exec npm run start --watch ./src",
+    "dev": "nodemon --exec npm run start --watch ./src",
     "format": "prettier --write \"src/**/*.{js,jsx, json}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,jsx, json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
